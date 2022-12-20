@@ -1,7 +1,11 @@
+import Slide from "../carousal-slider/Carousal";
+
 const Movies = () => {
-    return(
-        <h2>Movies</h2>
-    )
-}
+  return (
+    <>
+      <Slide />
+    </>
+  );
+};
 
 export default Movies;
