@@ -2,9 +2,7 @@
   margin: 0;
   padding: 0;
 }
-.carousal-holder {
-  background-color: black;
-}
+
 .star {
   height: 1%;
   width: 1%;
@@ -13,20 +11,23 @@
   height: 1%;
   width: 1%;
 }
-
-.title {
-  background: linear-gradient(
-      rgba(27, 24, 24, 0.52),
-      rgba(31, 27, 27, 0.455),
-      rgba(20, 20, 20, 0.841),
-      rgba(0, 0, 0, 0.782),
-      rgba(0, 0, 0, 0.928)
-    ),
-    url(https://templates.iqonic.design/streamit/frontend/html/images/movie-banner/02.jpg);
-  margin: 0% 5% 0% 5%;
-  padding: 2% 2% 2% 2%;
-  background-size: cover;
+/* .carousal-holder {
+  background-color: black;
+  width: 100%;
+  max-width: 80%;
+  height: 100%;
+  position: relative;
 }
+.sbody {
+  display: grid;
+  place-items: center;
+}
+.title {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: all 0.5s;
+} */
 .greatemperor {
   background: url(https://templates.iqonic.design/streamit/frontend/html/images/texure.jpg);
   background-repeat: repeat-x;
@@ -182,7 +183,7 @@
       rgba(0, 0, 0, 0.782),
       rgba(0, 0, 0, 0.928)
     ),
-    url(https://templates.iqonic.design/streamit/frontend/html/images/movie-banner/01.png);
+    url();
   margin: 0% 5% 0% 5%;
   padding: 2% 2% 2% 2%;
   background-size: cover;
