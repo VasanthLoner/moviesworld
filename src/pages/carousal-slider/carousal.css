@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+.carousel {
+  display: flex;
+  width: 100%;
+}
+
 .star {
   height: 1%;
   width: 1%;
@@ -11,23 +16,7 @@
   height: 1%;
   width: 1%;
 }
-/* .carousal-holder {
-  background-color: black;
-  width: 100%;
-  max-width: 80%;
-  height: 100%;
-  position: relative;
-}
-.sbody {
-  display: grid;
-  place-items: center;
-}
-.title {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  transition: all 0.5s;
-} */
+
 .greatemperor {
   background: url(https://templates.iqonic.design/streamit/frontend/html/images/texure.jpg);
   background-repeat: repeat-x;
@@ -55,7 +44,7 @@
 }
 .redplay {
   border: solid 2px black;
-  background-color: rgb(255, 0, 0);
+  background-color: var(--color-red);
   color: white;
   border-radius: 1%;
   padding: 1.5% 0.5% 1.5% 0.5%;
@@ -195,4 +184,59 @@
   .para {
     width: 100%;
   }
+}
+/* section {
+  height: 90%;
+  display: grid;
+  place-items: center;
+} */
+.sbody {
+  width: 100%;
+  max-width: 100%;
+  height: 90%;
+  position: relative;
+}
+.carousalholder {
+  width: 800px;
+  max-width: 2500px;
+  height: 90%;
+  transition: all 0.5s;
+}
+
+.btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  z-index: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 18px;
+}
+
+.btn:active {
+  transform: scale(1.1);
+}
+
+.btn-prev {
+  bottom: 89%;
+  top: 70%;
+  left: -4%;
+  margin: 20% 2% 11% 0%;
+}
+
+.btn-next {
+  top: 45%;
+  right: -2%;
+  margin: 20% 0% 0% 0%;
+}
+.pic1 {
+  width: 90%;
+  height: 100%;
+}
+.pic2 {
+  width: 90%;
+  height: 100%;
 }

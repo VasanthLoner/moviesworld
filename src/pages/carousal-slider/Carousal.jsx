@@ -5,10 +5,12 @@ import play from "../assets/icons/play.png";
 import play2 from "../assets/icons/play2.png";
 import round from "../assets/icons/ellipse.png";
 import polygon from "../assets/icons/polygon.png";
+import right from "../assets/icons/right.png";
+import left from "../assets/icons/left.png";
 
 function Carousal() {
   return (
-    <div>
+    <div className="carousel">
       <Slide
         title="THE GREAT EMPEROR"
         rating="4(imdb)"
@@ -69,23 +71,28 @@ function Carousal() {
     </div>
   );
 }
+
+// props function below
 function Slide(props) {
   return (
     <div className="sbody">
-      <div className="carousal-holder">
+      <div className="carousalholder">
         <div
           className="title"
           style={{
-            background: `  linear-gradient(
+            background: `linear-gradient(
             rgba(27, 24, 24, 0.52),
             rgba(31, 27, 27, 0.455),
             rgba(20, 20, 20, 0.841),
             rgba(0, 0, 0, 0.782),
             rgba(0, 0, 0, 0.928)
           ),url(${props.image})`,
-            margin: "0% 5% 0% 5%",
-            padding: "2% 2% 2% 2%",
-            backgroundSize: "cover",
+            margin: "0%",
+            // margin: "0% 5% 0% 5%",
+            padding: "2%",
+            height: "500px",
+            // padding: "2% 2% 2% 2%",
+            backgroundSize: "100% 100%",
           }}
         >
           <div>
@@ -116,8 +123,30 @@ function Slide(props) {
           </button>
         </div>
       </div>
+      {/* <button class="btn btn-next">
+        <img src={right} className="pic1" alt="btn" />
+      </button>
+      <button class="btn btn-prev">
+        <img src={left} className="pic2" alt="btn" />
+      </button> */}
+
+      {/* {props.left}
+        {props.right} */}
     </div>
   );
 }
-
+// onClick={Hello()}
+// function Hello() {
+//   alert("hello");
+// }
 export default Carousal;
+// left={[
+//   <button className=" btn-next">
+//     <img src={right} alt="btn" />
+//   </button>,
+// ]}
+// right={[
+//   <button className=" btn-prev">
+//     <img src={left} alt="btn" />
+//   </button>,
+// ]}
