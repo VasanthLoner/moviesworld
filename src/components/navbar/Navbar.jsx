@@ -1,3 +1,4 @@
+
 import './navbar.css'
 import Logo from "../../assets/images/logo.png"
 import Search from "../../assets/images/search1.png"
@@ -5,7 +6,6 @@ import Bell from "../../assets/images/bell.png"
 import User from "../../assets/images/user.jpg"
 import Menu from "../../assets/images/menu1.png"
 import Usericon from "../../assets/images/usericon 1.png"
-
 
 const Navbar = () => {
     return(
@@ -34,15 +34,30 @@ const Navbar = () => {
                 </a></div>
                 </div>
                 <div  id='contant1' className='usericon1' >
-                <a  href="">
+                <a   href="">
                    <div className='usericon1' > <img className='usericon' src={Usericon} alt="" /></div>
                 </a> 
+                {/* onClick={{backgroundColor: show % 2 === 0 ? "green": "red"}} onClick={()=>setCount( count+1 )} */}
+                {/* {{
+                  
+                    const usericon12 = () => {
+                        const [show, setShow] =  useState(true);
+                        return (
+                            <div>
+                            <button onClick={() => setShow(!show)}>
+                              {show ? "Hide Element Below" : "Show Element Below"}
+                            </button>
+                      
+                            {show && <div>Happy</div>}
+                          </div>
+                        )
+
+                    }
+                }} */}
+         
                 </div>
-             
-                
-                </div>
-               
-            
+            </div>
+              
         </>
     )
 }

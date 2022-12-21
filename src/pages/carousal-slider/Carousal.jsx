@@ -76,7 +76,7 @@ function Slide(props) {
         <div
           className="title"
           style={{
-            background: `  linear-gradient(
+            background: `linear-gradient(
             rgba(27, 24, 24, 0.52),
             rgba(31, 27, 27, 0.455),
             rgba(20, 20, 20, 0.841),

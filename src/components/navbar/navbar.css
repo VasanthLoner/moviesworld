@@ -1,21 +1,24 @@
 #contant{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
-    background: rgba(20, 20, 20, 0.8) !important;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: black;
     height: 70px;
     width: 100%;
     z-index: 0.99;
     overflow: hidden !important;
+    position: fixed;
 }
 #contant1{
     display: flex;
     flex-wrap: nowrap !important;
     justify-content: space-between !important;
+    align-items: center;
 }
 .logon{
     height: 40px;
-    margin-top: 8px;
+    margin-top: px;
     margin-left: 0px;
 }
 .list{
@@ -39,7 +42,7 @@ li a:hover{
 .userid{
     height: 60px;
     width: 150px;
-   margin-top: 25px;
+   margin-top: 18px;
    display: flex;
    flex-wrap: wrap;
    float: right !important;
@@ -87,11 +90,13 @@ li a:hover{
     margin-top: 20px;
     margin-right: 30px;
     visibility: hidden;
+    align-items: center;
+ }
+ .usericon{ 
+    align-items: center;
  }
  @media only screen and (min-width:321px) and (max-width:1070px) {
-    body{
-        background-color: red;
-    }
+
     .userid{
         height: 60px;
         width: 150px;
@@ -120,7 +125,7 @@ li a:hover{
     .menuimg1{
         height:30px ;
         width: 30px;
-        margin-top: 5px;
+        margin-top: 0px;
         margin-left: 5px;
         visibility: visible;
      }
@@ -129,7 +134,7 @@ li a:hover{
         border-color: #d9d5d575;
         height:40px ;
         width: 40px;
-        margin-top: 12px;
+        margin-top: 10px;
         margin-left: 35px;
         visibility: visible;
      }
@@ -137,9 +142,10 @@ li a:hover{
         height: 28px;
         width: 25px;
         justify-content: end;
-        margin-top: 25px;
+        margin-top: 12px;
         margin-right: 30px;
         visibility: visible;
      }
 
  }
+
