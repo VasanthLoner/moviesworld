@@ -12,17 +12,16 @@ function App() {
     <>
     < Navbar />
     <Carousal/>
-
+<BrowserRouter>
+<Routes>
+  <Route path='/' element={<Home />} />
+  <Route path='/movies' element={<Movies />} />
+  <Route path='/tv-shows' element={<TvShows />} />
+</Routes>
+</BrowserRouter>  
 
     </>
   );
 }
 
 export default App;
-{/* <BrowserRouter>
-<Routes>
-  <Route path='/' element={<Home />} />
-  <Route path='/movies' element={<Movies />} />
-  <Route path='/tv-shows' element={<TvShows />} />
-</Routes>
-</BrowserRouter> */}
