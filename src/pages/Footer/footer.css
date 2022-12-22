@@ -4,12 +4,91 @@
   height: 20%;
   position: relative;
   bottom: 10%;
+body{
+  background-color: #212529;
 }
-.bot1 {
-  color: aliceblue;
+.about{
   display: flex;
-  justify-content: space-evenly;
-  width: 30%;
-  height: 20%;
-  margin: -5% 0% 0% -50%;
+  flex-wrap:wrap ;
+  width: 100%;
+  color: #D1D0CF;
+  justify-content:space-around;
+  margin: auto;
+  background-color: #191919;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-top: 30px;
 }
+h2{
+  font-size: 18px;
+  font-weight: 400;
+}
+.left{
+  width: 50%;
+  line-height: 1.5;
+}
+ul li{
+  font-size: 18px;
+}
+ul li:hover{
+  color: red;
+}
+p{
+  font-size: 14px;
+  padding-top: 2%;
+  line-height: 2;
+}
+.privacy{
+  padding-left: 5%;
+}
+.divfacebook{
+  height: 30px;
+  display: inline;
+  width: 70px;
+  padding: 10px;
+  margin: 05px;
+  padding-top: 20px;
+  border-radius: 50%;
+  background: rgba(30, 30, 30, 0.76);
+}
+.divfacebook:hover{
+  box-shadow: 0 0 11px rgb(232, 4, 4); 
+  color:white;
+}
+.facebook{
+  height:25px;
+  width: 25px;
+  object-fit: contain;
+  object-position: 5px;
+  align-items: center;
+  margin-top: 40px;
+}
+.twitter{
+  height:25px;
+  width: 25px;
+  object-fit: contain;
+}
+.googleplus{
+  height:25px;
+  width: 25px;
+  object-fit: contain;
+}
+.github{
+  height:25px;
+  width: 25px;
+  object-fit: contain;
+  padding-top: 10px;
+}
+.divfacebook1{
+  display: inline-block;
+  margin-top: 30px;
+
+}
+.playstore{
+  width: 80%;
+}
+.applestore{
+  width: 80%;
+}
+
+

@@ -17,11 +17,5 @@ function Smallcarousel(props){
      </div>
           </>
     )
-//     <div class="container">
-//   <img src={Movie1} alt="Avatar" class="image"/>
-//   <div class="overlay">
-//     <div class="text">Hello World</div>
-//   </div>
-//  </div>
 }
 export default Smallcarousel;

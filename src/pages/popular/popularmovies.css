@@ -10,6 +10,17 @@ body {
   width: 80%;
   margin: auto;
   padding-top: 5%;
+  body{
+    background-color: black;
+  }
+  .popularhead{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 5%;
 }
 .popularhead12 {
   color: #e50914;
@@ -120,3 +131,7 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
   } */
+
+
+
+

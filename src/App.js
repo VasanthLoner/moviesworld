@@ -29,13 +29,22 @@ export default App;
 
 
 {/* <BrowserRouter>
+function App() {
+  return (
+    <>
+    < Navbar />
+    <Carousal/> 
+    <Popularmovies />
+    <Footer />
+   
+<BrowserRouter>
 <Routes>
   <Route path='/' element={<Home />} />
   <Route path='/movies' element={<Movies />} />
   <Route path='/tv-shows' element={<TvShows />} />
 </Routes>
 </BrowserRouter>  
-
+</>
    
       <BrowserRouter>
         <Routes>
@@ -44,4 +53,7 @@ export default App;
           <Route path='/movies' element={<Movies />} />
         </Routes>
       </BrowserRouter> */}
+=======
+  );
+}
 
