@@ -18,28 +18,28 @@
   margin-top: 8px;
   margin-left: 0px;
 }
-#content{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between; 
-    background-color: black;
-    height: 70px;
-    width: 100%;
-    z-index: 0.99;
-    overflow: hidden !important;
-    position: fixed;
+#content {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  height: 70px;
+  width: 100%;
+  z-index: 0.99;
+  overflow: hidden !important;
+  position: fixed;
 }
-#content1{
-    display: flex;
-    flex-wrap: nowrap !important;
-    justify-content: space-between !important;
-    align-items: center;
+#content1 {
+  display: flex;
+  flex-wrap: nowrap !important;
+  justify-content: space-between !important;
+  align-items: center;
 }
-.logon{
-    height: 40px;
-    margin-top: px;
-    margin-left: 0px;
+.logon {
+  height: 40px;
+  margin-top: px;
+  margin-left: 0px;
 }
 .list {
   display: block;
@@ -75,8 +75,32 @@ li a:hover {
   float: right;
 }
 .bell {
-  height: 20px;
   width: 20px;
+  animation-name: opo;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+@keyframes opo {
+  0% {
+    transform: rotate(0deg);
+    height: 25px;
+  }
+  25% {
+    transform: rotate(5deg);
+    height: 24px;
+  }
+  50% {
+    transform: rotate(0deg);
+    height: 23px;
+  }
+  75% {
+    transform: rotate(5deg);
+    height: 24px;
+  }
+  100% {
+    height: 25px;
+    transform: rotate(0deg);
+  }
 }
 .user {
   height: 40px;
@@ -91,17 +115,17 @@ li a:hover {
   margin-left: 5px;
   visibility: hidden;
 }
-.userid{
-    height: 60px;
-    width: 150px;
-   margin-top: 18px;
-   display: flex;
-   flex-wrap: wrap;
-   float: right !important;
-   text-align: end;
-   display: flex;
-   flex-wrap: nowrap;
-   margin-right: 0px;
+.userid {
+  height: 60px;
+  width: 150px;
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  float: right !important;
+  text-align: end;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: 0px;
 }
 .menuimg {
   border: 1px solid;
@@ -174,61 +198,58 @@ li a:hover {
     visibility: visible;
   }
 }
-    
- .usericon{ 
-    align-items: center;
- }
- @media only screen and (min-width:321px) and (max-width:1070px) {
 
-    .userid{
-        height: 60px;
-        width: 150px;
-       margin-top: 14px;
-       display: flex;
-       flex-wrap: wrap;
-       float: right !important;
-       text-align: end;
-       display: flex;
-       flex-wrap: nowrap;
-       margin-right: 0px;
-       display: none !important;
-    }
-    .list{
-        display:block;
-        display: none;
-    }
-    li{
-        display: inline;
-    }
-    .logon{
-        height: 40px;
-       margin: auto !important;
-       justify-content: center;
-    }
-    .menuimg1{
-        height:30px ;
-        width: 30px;
-        margin-top: 0px;
-        margin-left: 5px;
-        visibility: visible;
-     }
-     .menuimg{
-        border: 1px solid;
-        border-color: #d9d5d575;
-        height:40px ;
-        width: 40px;
-        margin-top: 10px;
-        margin-left: 35px;
-        visibility: visible;
-     }
-     .usericon{
-        height: 28px;
-        width: 25px;
-        justify-content: end;
-        margin-top: 12px;
-        margin-right: 30px;
-        visibility: visible;
-     }
-
- }
-
+.usericon {
+  align-items: center;
+}
+@media only screen and (min-width: 321px) and (max-width: 1070px) {
+  .userid {
+    height: 60px;
+    width: 150px;
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    float: right !important;
+    text-align: end;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 0px;
+    display: none !important;
+  }
+  .list {
+    display: block;
+    display: none;
+  }
+  li {
+    display: inline;
+  }
+  .logon {
+    height: 40px;
+    margin: auto !important;
+    justify-content: center;
+  }
+  .menuimg1 {
+    height: 30px;
+    width: 30px;
+    margin-top: 0px;
+    margin-left: 5px;
+    visibility: visible;
+  }
+  .menuimg {
+    border: 1px solid;
+    border-color: #d9d5d575;
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 35px;
+    visibility: visible;
+  }
+  .usericon {
+    height: 28px;
+    width: 25px;
+    justify-content: end;
+    margin-top: 12px;
+    margin-right: 30px;
+    visibility: visible;
+  }
+}

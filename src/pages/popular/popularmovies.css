@@ -1,91 +1,84 @@
-
-  body{
-    background-color: black;
-  }
-
-  .popularhead{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    margin: auto;
-    padding-top: 5%;
+body {
+  background-color: black;
 }
-.popularhead12{
-   color:  #e50914;
-   font-size: 1.777em;
-   font-weight: 700;
-   text-decoration: none;
+
+.popularhead {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding-top: 5%;
+}
+.popularhead12 {
+  color: #e50914;
+  font-size: 1.777em;
+  font-weight: 700;
+  text-decoration: none;
 }
 .popularhead12 a {
-    color:  #e50914;
-    font-size: 1.777em;
-    font-weight: 700;
-    text-decoration: none;
-    font-size:100%;
- }
-.popularhead1{
-    color: #ffffff;
-    font-size: 1.777em;
-    font-weight: 400;
- }
+  color: #e50914;
+  font-size: 1.777em;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 100%;
+}
+.popularhead1 {
+  color: #ffffff;
+  font-size: 1.777em;
+  font-weight: 400;
+}
 
- .movielist{
-    display: inline-block;
-    width: 25%;
-    height: 65%;
+.movielist {
+  display: inline-block;
+  width: 25%;
+  height: 65%;
 }
-.movielist1{
-    margin: 20px;
-    object-fit: contain;
-    height: 200px;
- }
- .btnplay{
-    background-color: #e50914;
-    margin-left: 11%;
-    border: none;
-    margin-top: 3%;
-    color: #ffffff;
-    width: 30%;
-    padding: 2%;
-    padding-left: 10px;
-    display: flex;
-    flex-wrap: nowrap;
+.movielist1 {
+  margin: 20px;
+  object-fit: contain;
+  height: 200px;
 }
-.playnow{
-    display: inline-block;
-    height: 12%;
-    width: 12%;
-    padding-right: 10px;
+.btnplay {
+  background-color: #e50914;
+  margin-left: 11%;
+  border: none;
+  margin-top: 8%;
+  color: #ffffff;
+  width: 32%;
+  padding: 3%;
+  padding-left: 10px;
+  display: flex;
+  flex-wrap: nowrap;
 }
-.moviename{
-    color: #ffffff;
-    padding-top: 20%;
-    padding-left: 11%;
-    font-size: 1.125em;
-    font-weight: 400;
-
+.playnow {
+  display: inline-block;
+  height: 12%;
+  width: 12%;
+  padding-right: 10px;
 }
-.duration{
-    color: #ffffff;
-    background-image: url();
-    background-repeat: no-repeat;
-    padding-top: 3%;
-    padding-left: 11%;
-    font-size: 14px;
-    font-weight: 400;
+.moviename {
+  color: #ffffff;
+  padding-top: 20%;
+  padding-left: 11%;
+  font-size: 1.125em;
+  font-weight: 400;
+}
+.duration {
+  color: #ffffff;
+  background-image: url();
+  background-repeat: no-repeat;
+  padding-top: 3%;
+  padding-left: 11%;
+  font-size: 14px;
+  font-weight: 400;
 }
 /* imagehover */
- #imghover:hover{
-    transform:scaleX(1);
-    opacity:1;
+#imghover:hover {
+  transform: scaleX(1);
+  opacity: 1;
 }
-
-
-
-
-
 
 /* IMAGEHOVER */
 /* .container {

@@ -1,0 +1,93 @@
+* {
+  color: white;
+}
+.parallax {
+  background-image: linear-gradient(
+      rgb(20 20 20 / 77%),
+      rgb(0 0 0 / 50%),
+      rgb(0 0 0 / 41%)
+    ),
+    url(https://templates.iqonic.design/streamit/frontend/html/images/movie-banner/02.jpg);
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5%;
+}
+.sto {
+  height: 100px;
+  background-color: transparent;
+  font-size: 36px;
+  display: flex;
+}
+.bailey {
+  background: url(https://templates.iqonic.design/streamit/frontend/html/images/texure.jpg);
+  background-repeat: repeat-x;
+  background-position: 100% 100%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  letter-spacing: -1.34688px;
+  font-size: 1.5em;
+  width: 100%;
+  margin: 0% 0% 0% 0%;
+  padding: 1% 1% 1% 0%;
+  filter: brightness(100%) !important;
+}
+.sto1 {
+  width: 40%;
+  height: 400px;
+
+  padding: 0% 0% 0% 0%;
+  margin: 0% 0% 0% 0%;
+}
+.zeus {
+  margin: 0% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
+  height: 17px;
+  width: 15px;
+}
+.imdb {
+  font-size: 20px;
+  margin: 0% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
+  font-weight: 500;
+}
+.plus {
+  background-color: grey;
+  margin: 0% 0% 0% 0%;
+  font-size: 25px;
+  padding: 1%;
+}
+.timing {
+  margin-left: 3%;
+  font-size: 25px;
+  margin: 0% 0% 0% 0%;
+  padding: 1%;
+}
+.year {
+  font-size: 30px;
+  margin: 0% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
+  font-weight: 700;
+}
+.disc {
+  font-size: 20px;
+  font-weight: 200;
+  width: 80%;
+  margin: 0% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
+}
+.sto2 {
+  margin: 0% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
+  width: 50%;
+}
+.poco {
+  height: 400px;
+  width: 700px;
+  border-radius: 10px;
+  margin: 0% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
+}

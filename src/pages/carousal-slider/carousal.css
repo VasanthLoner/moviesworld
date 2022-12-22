@@ -190,17 +190,32 @@
   display: grid;
   place-items: center;
 } */
-.sbody {
+/* .sbody {
   width: 100%;
   max-width: 100%;
   height: 90%;
   position: relative;
+} */
+.sbody {
+  width: 170px;
+  max-width: 100%;
+  height: 90%;
+  position: relative;
+  margin: 8% 0% 0% 4%;
 }
 .carousalholder {
   width: 800px;
   max-width: 2500px;
   height: 90%;
   transition: all 0.5s;
+}
+
+.carousalholder:hover {
+  position: relative;
+  z-index: 10;
+  border: solid 5px white;
+  transition-duration: 2s;
+  transform: translateX(-50px);
 }
 
 .btn {
