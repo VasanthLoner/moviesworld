@@ -3,6 +3,7 @@ import star from "../assets/icons/fullstar.png";
 import stars from "../assets/icons/halfstar.png";
 import domo from "../assets/images/bg1.jpg";
 import inki from "../assets/images/parallax-logo.png";
+import polygon from "../assets/icons/polygon.png";
 function Banner() {
   return (
     <div>
@@ -27,6 +28,10 @@ function Banner() {
               beverage flavoured with cream, cocoa, and Irish whiskey made by
               Diageo at Republic of Ireland and in Mallusk, Northern Ireland.
             </p>
+            <button className="redplay">
+              <img alt="poly" className="poly" src={polygon} />
+              <span className="poly2">PLAY NOW</span>
+            </button>
           </div>
           <div className="sto2">
             <img className="poco" alt="loco" src={domo} />

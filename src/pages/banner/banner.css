@@ -3,9 +3,9 @@
 }
 .parallax {
   background-image: linear-gradient(
-      rgb(20 20 20 / 77%),
-      rgb(0 0 0 / 50%),
-      rgb(0 0 0 / 41%)
+      rgba(20, 20, 20, 0.89),
+      rgba(0, 0, 0, 0.728),
+      rgb(0 0 0 / 91%)
     ),
     url(https://templates.iqonic.design/streamit/frontend/html/images/movie-banner/02.jpg);
   height: 500px;
@@ -90,4 +90,14 @@
   border-radius: 10px;
   margin: 0% 0% 0% 0%;
   padding: 0% 0% 0% 0%;
+}
+.redplay {
+  border: solid 2px black;
+  background-color: var(--color-red);
+  color: white;
+  border-radius: 1%;
+  padding: 1.5% 0.5% 1.5% 0.5%;
+}
+.redplay:hover {
+  filter: brightness(50%);
 }
