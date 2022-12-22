@@ -14,7 +14,6 @@ import Latest from './Latest'
 const Popularmovies = () => {
     return(
         <>
-        
       <div className='popularhead'>
         <div className='popularhead1'><h4>Popular Movies</h4></div>
         <div className='popularhead12'><a href=''><h6> View All</h6></a></div>
@@ -35,11 +34,10 @@ const Popularmovies = () => {
         <div className='popularhead1'><h4>Movies Recommended For You</h4></div>
         <div className='popularhead12'><a href=''><h6> View All</h6></a></div>
       </div>
-      <Smallcarousel name="Logan" duration="1h22mims" buttons="Play Now"  imgs="https://templates.iqonic.design/streamit/frontend/html/images/video/06.jpg"/>
+<Smallcarousel name="Logan" duration="1h22mims" buttons="Play Now"  imgs="https://templates.iqonic.design/streamit/frontend/html/images/video/06.jpg"/>
 <Smallcarousel name="Logan" duration="1h22mims" buttons="Play Now" img={Movie2} imgs="https://templates.iqonic.design/streamit/frontend/html/images/video/10.jpg"/>
 <Smallcarousel name="Black Queen" duration="1h45mims" buttons="Play Now" img={Movie3} imgs="https://templates.iqonic.design/streamit/frontend/html/images/video/03.jpg"/>
-<Smallcarousel name="Black Queen" duration="1h45mims" buttons="Play Now" img={Movie4}  imgs="https://templates.iqonic.design/streamit/frontend/html/images/video/05.jpg"/>
-        
+<Smallcarousel name="Black Queen" duration="1h45mims" buttons="Play Now" img={Movie4}  imgs="https://templates.iqonic.design/streamit/frontend/html/images/video/05.jpg"/>    
 </>
     )
 }

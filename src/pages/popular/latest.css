@@ -2,7 +2,6 @@
   body{
     background-color: black;
   }
-
   .popularhead{
     display: flex;
     flex-wrap: nowrap;
@@ -69,11 +68,9 @@
     padding-left: 11%;
     font-size: 1.125em;
     font-weight: 400;
-
 }
 .duration{
     color: #ffffff;
-    background-image: url();
     background-repeat: no-repeat;
     padding-top: 3%;
     padding-left: 11%;
