@@ -36,9 +36,5 @@ function Smallcarousel(props) {
   //   <div class="overlay">
   //     <div class="text">Hello World</div>
   //   </div>
-  //  </div>
-     </div>
-          </>
-    )
 }
 export default Smallcarousel;

@@ -19,6 +19,7 @@ function App() {
 <Carousal/>
 <Popularmovies/> 
 <Banner/>
+<Footer/>
 </>
 
   );
@@ -53,7 +54,3 @@ function App() {
           <Route path='/movies' element={<Movies />} />
         </Routes>
       </BrowserRouter> */}
-=======
-  );
-}
-
