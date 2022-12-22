@@ -31,10 +31,6 @@
     font-weight: 400;
  }
 
- #movieoverall{
-   margin: auto;
-   margin-top: 2%;
- }
  .movielist{
     display: inline-block;
     width: 25%;
@@ -80,6 +76,16 @@
     font-size: 14px;
     font-weight: 400;
 }
+/* imagehover */
+ #imghover:hover{
+    transform:scaleX(1);
+    opacity:1;
+}
+
+
+
+
+
 
 /* IMAGEHOVER */
 /* .container {

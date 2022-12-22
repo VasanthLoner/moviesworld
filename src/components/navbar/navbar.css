@@ -1,14 +1,13 @@
-#contant {
+#content {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
-  backdrop-filter: invert(80%);
   height: 70px;
   width: 100%;
   z-index: 0.99;
   overflow: hidden !important;
 }
-#contant1 {
+#content1 {
   display: flex;
   align-items: center;
   flex-wrap: nowrap !important;
@@ -18,7 +17,8 @@
   height: 40px;
   margin-top: 8px;
   margin-left: 0px;
-#contant{
+}
+#content{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -30,7 +30,7 @@
     overflow: hidden !important;
     position: fixed;
 }
-#contant1{
+#content1{
     display: flex;
     flex-wrap: nowrap !important;
     justify-content: space-between !important;
@@ -90,6 +90,7 @@ li a:hover {
   margin-top: 5px;
   margin-left: 5px;
   visibility: hidden;
+}
 .userid{
     height: 60px;
     width: 150px;
@@ -173,9 +174,7 @@ li a:hover {
     visibility: visible;
   }
 }
-    visibility: hidden;
-    align-items: center;
- }
+    
  .usericon{ 
     align-items: center;
  }
