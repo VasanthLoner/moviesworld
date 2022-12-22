@@ -7,11 +7,15 @@ import TvShows from './pages/tv-shows/TvShows';
 import Carousal from './pages/carousal-slider/Carousal';
 import Footer from './pages/Footer/Footer';
 import Popularmovies from './pages/popular/Popularmovies';
+import Test from './pages/Footer/Test';
 function App() {
   return (
     <>
-    < Navbar />
-    <Carousal/>
+    {/* < Navbar />
+    <Carousal/> */}
+    {/* <Popularmovies /> */}
+    <Test />
+
 <BrowserRouter>
 <Routes>
   <Route path='/' element={<Home />} />
@@ -20,7 +24,7 @@ function App() {
 </Routes>
 </BrowserRouter>  
 
-    <Popularmovies />
+   
       <BrowserRouter>
         <Routes>
       

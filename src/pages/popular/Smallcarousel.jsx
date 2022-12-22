@@ -9,7 +9,7 @@ import Playnow from "../../assets/images/playnow.png"
 function Smallcarousel(props){
     return(
         <>
-      <div id="movieoverall" className='movielist'>
+      <div className='movielist'>
         <div id="imghover" className='movielist1'>
         <div  style={{background:`url(${props.imgs})`,backgroundSize:"cover" , height:"100%" , width:"100%" ,  backgroundRepeat: "no-repeat"}}  className='displayname'>
         <h4 className='moviename'>{props.name}</h4>
